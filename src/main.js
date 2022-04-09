@@ -32,6 +32,13 @@ window.addEventListener('load', () => {
     subscribe.innerHTML = 'SUBSCRIBE';
     subscribe.className = 'app-section--subscribe';
     divFlex.appendChild(subscribe);
+
+    subscribe.addEventListener('click', function(event){
+        event.preventDefault();
+        console.log((event));
+    },false) 
+    
+ 
 });
 
 
