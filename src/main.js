@@ -35,7 +35,7 @@ window.addEventListener('load', () => {
 
     subscribe.addEventListener('click', function(event){
         event.preventDefault();
-        console.log((event));
+        console.log(event);
     },false) 
     
  
